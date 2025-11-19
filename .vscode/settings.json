@@ -1,0 +1,6 @@
+{
+    // Force VS Code (and Codex CLI) to run Python in the analysis_system conda env
+    "python.defaultInterpreterPath": "/home/cefect/.conda/envs/analysis_system/bin/python",
+
+    "python.terminal.activateEnvironment": true
+}
