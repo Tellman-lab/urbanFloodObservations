@@ -1,0 +1,19 @@
+{
+  "model_variant": "segformer_b2",
+  "input_bands": ["blue", "green", "red", "near_infrared"],
+  "classes": {
+    "0": "non-inundated",
+    "1": "inundated"
+  },
+  "tile_size": 256,
+  "cross_validation": "leave-one-event-out",
+  "validation_split_within_training_folds": 0.1,
+  "epochs": 30,
+  "batch_size": 8,
+  "learning_rate": 0.00006,
+  "weight_decay": 0.01,
+  "loss": "focal + dice",
+  "mixed_precision": true,
+  "test_time_augmentation": true,
+  "normalization": "fold-specific percentile clipping, scaling to [0,1], then standardization"
+}

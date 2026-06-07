@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Local data and generated outputs
+data/
+outputs/
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.log
+pipeline.log
+
+# Geospatial and bulky artifacts
+*.tif
+*.tiff
+*.vrt
+*.aux.xml
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.crdownload
+
+# Notebooks and local editor state
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
