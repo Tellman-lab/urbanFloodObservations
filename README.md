@@ -150,12 +150,3 @@ python scripts/evaluate_mosaics.py \
 
 The UFOv2 dataset is archived on Zenodo under CC BY 4.0:
 `10.5281/zenodo.19698577`.
-
-## Publication Checklist
-
-Before making the GitHub repository public:
-
-- Confirm the repository name and GitHub organization.
-- Add the final code license selected by the project team.
-- Confirm the Zenodo DOI and paper citation text.
-- Optionally add trained model weights to a GitHub Release or Zenodo, not Git.
