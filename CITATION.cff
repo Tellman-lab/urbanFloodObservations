@@ -1,12 +1,12 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the UFOv2 dataset and associated paper."
-title: "UFO SegFormer-B2"
+message: If you use this code, please cite the UFOv2 dataset and associated paper.
+title: UFO SegFormer-B2
 type: software
 authors:
-  - name: "Tellman Lab"
-repository-code: "https://github.com/Tellman-lab/urbanFloodObservations"
-references:
-  - type: dataset
-    title: "Urban Flood Observations (UFO) dataset (v2)"
-    doi: "10.5281/zenodo.19698577"
-    license: "CC-BY-4.0"
+- name: Tellman Lab
+repository-code: https://github.com/Tellman-lab/urbanFloodObservations
+version: 1.0.0
+date-released: '2026-10-09'
+url: https://github.com/Tellman-lab/urbanFloodObservations/releases/tag/v1.0.0
+abstract: 'UFO SegFormer B2 code and documentation. Related UFOv2 dataset: https://doi.org/10.5281/zenodo.19698577.
+  The dataset is licensed CC BY 4.0; software and checkpoint licenses are not specified.'

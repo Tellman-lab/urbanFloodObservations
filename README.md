@@ -167,3 +167,10 @@ python scripts/evaluate_mosaics.py \
 
 The UFOv2 dataset is archived on Zenodo under CC BY 4.0:
 `10.5281/zenodo.19698577`.
+
+## Versioned release and Zenodo archive
+
+[Release v1.0.0](https://github.com/Tellman-lab/urbanFloodObservations/releases/tag/v1.0.0) provides a source ZIP and a complete archive with the checkpoint and
+215 predictions. See [docs/ARCHIVING.md](docs/ARCHIVING.md) for the
+contents and Zenodo upload instructions. A software DOI has not yet
+been assigned; the existing Zenodo DOI identifies the dataset.
