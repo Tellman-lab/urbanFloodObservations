@@ -7,7 +7,7 @@ repository's four-band PlanetScope training pipeline.
 ## Access
 
 - [Hugging Face model package](https://huggingface.co/rohitm9/ufo-segformer-b2)
-  (initially private; access requires an authorized Hugging Face account).
+  (public download; no sign-in required).
 - [Original checkpoint on Drive](https://drive.google.com/file/d/15I7KA-ddi1MhqSYW_t4XSmPzImwGdYBT/view).
 
 The Hugging Face package contains the original checkpoint, a Transformers
@@ -43,13 +43,13 @@ The checkpoint's original band selection, band order, scaling and normalization
 are not yet confirmed. Three input channels do not establish that the inputs
 were RGB. No image processor or assumed normalization is included.
 
-Load the checkpoint using Transformers with an authorized Hub account:
+Load the public checkpoint using Transformers:
 
 ```python
 from transformers import AutoModelForSemanticSegmentation
 
 model = AutoModelForSemanticSegmentation.from_pretrained(
-    "rohitm9/ufo-segformer-b2", token=True
+    "rohitm9/ufo-segformer-b2"
 ).eval()
 ```
 

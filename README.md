@@ -13,8 +13,8 @@ The recovered B2 checkpoint and prediction artifacts are documented separately
 from the training pipeline:
 
 - [Checkpoint and Hugging Face package](docs/PRETRAINED.md): verified SegFormer B2
-  weights with **three input channels** and two classes; the Hub package is
-  initially private.
+  weights with **three input channels** and two classes, publicly available
+  on Hugging Face.
 - [Prediction evaluation](docs/EVALUATION.md): 215 full-chip masks across all 14
   UFO events, with a CSV verified against every local image/label pair.
 - Verified mean per-image water IoU: **77.34%**. Pooled-pixel water IoU: **85.08%**.
