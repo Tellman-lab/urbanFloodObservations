@@ -1,0 +1,108 @@
+{
+  "zip_tiffs": 215,
+  "csv_rows": 217,
+  "csv_image_rows": 215,
+  "csv_other_rows": [
+    {
+      "TP": "344926.4372",
+      "FP": "33458.01395",
+      "TN": "643170.8047",
+      "FN": "27020.74419",
+      "Precision": "0.866981216",
+      "Recall": "0.871492268",
+      "IoU": "0.77340578",
+      "F1": "0.853306281",
+      "Accuracy": "0.942322962",
+      "event": "ALL",
+      "file": "OVERALL_MEAN",
+      "": ""
+    },
+    {
+      "TP": "74159184",
+      "FP": "7193473",
+      "TN": "138281723",
+      "FN": "5809460",
+      "Precision": "",
+      "Recall": "",
+      "IoU": "",
+      "F1": "",
+      "Accuracy": "",
+      "event": "",
+      "file": "",
+      "": ""
+    }
+  ],
+  "duplicate_zip_keys": [],
+  "duplicate_csv_keys": [],
+  "zip_not_in_csv": [],
+  "csv_not_in_zip": [],
+  "local_ufo_labels": 215,
+  "local_ufo_images": 215,
+  "local_labels_missing_from_zip": [],
+  "zip_missing_local_label": [],
+  "events": {
+    "BEI": 2,
+    "BNA": 5,
+    "CMO": 14,
+    "CTO": 7,
+    "DKA": 12,
+    "GIL": 20,
+    "HTX": 39,
+    "KTM": 23,
+    "MID": 4,
+    "NSW": 27,
+    "PNE": 13,
+    "QUE": 12,
+    "SLC": 6,
+    "SPS": 31
+  },
+  "checks_passed": {
+    "csv_found": 215,
+    "label_found": 215,
+    "image_found": 215,
+    "label_grid_match": 215,
+    "image_grid_match": 215,
+    "event_match": 215,
+    "csv_counts_match": 215,
+    "csv_metrics_match_1e6": 215
+  },
+  "raster_shapes": [
+    [
+      1024,
+      1024,
+      1
+    ]
+  ],
+  "raster_values": [
+    0,
+    1
+  ],
+  "metric_rounding_tolerance": 1e-06,
+  "checkpoint_provenance": "ZIP/CSV names identify B2; no verified linkage to the separately uploaded checkpoint.",
+  "recomputed_macro_image_water_iou": 0.773405779504737,
+  "recomputed_macro_event_water_iou": 0.7393744029068351,
+  "recomputed_total_counts": {
+    "TP": 74159184,
+    "FP": 7193473,
+    "TN": 138281723,
+    "FN": 5809460
+  },
+  "recomputed_micro_water_iou": 0.8508189859592328,
+  "csv_summary_checks": {
+    "mean_metrics_match": true,
+    "mean_metric_differences": {
+      "Precision": 1.860465115299803e-10,
+      "Recall": 5.302326355760556e-10,
+      "IoU": 5.11628184263202e-10,
+      "F1": 2.6976754163854366e-10,
+      "Accuracy": 3.395348446844082e-10
+    },
+    "total_counts_match": true
+  },
+  "status": "all_checks_passed",
+  "verification_date": "2026-10-09",
+  "prediction_source": "https://drive.google.com/file/d/1FpjzPr2eXEQhPJlDl5M16nOlFQ9FVKeW/view",
+  "csv_source": "https://drive.google.com/file/d/1AerMLVjzH_etOor4oyKyz8ekDjIm_d-2/view",
+  "reference_dataset": "https://zenodo.org/records/19698577",
+  "reference_note": "Verification used the locally retained UFO image/label pairs; the public uint8 image ZIP was not independently downloaded in this audit."
+}

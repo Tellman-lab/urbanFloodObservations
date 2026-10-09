@@ -1,5 +1,9 @@
 # Data Contract
 
+This contract applies to the current four-band training pipeline. The archived
+three-channel checkpoint has a separate, incompletely documented input contract;
+see [PRETRAINED.md](PRETRAINED.md).
+
 The training script expects paired PlanetScope image tiles and binary label
 tiles grouped by event. Event folder names define the leave-one-event-out folds.
 

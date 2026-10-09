@@ -7,9 +7,26 @@ The repository is intentionally code-only. UFOv2 data, model checkpoints,
 prediction rasters, and other large artifacts should stay outside Git and be
 referenced through data releases such as Zenodo.
 
-## Model
+## Archived checkpoint and verified predictions
 
-The model is SegFormer-B2 initialized from Hugging Face pretrained weights and
+The recovered B2 checkpoint and prediction artifacts are documented separately
+from the training pipeline:
+
+- [Checkpoint and Hugging Face package](docs/PRETRAINED.md): verified SegFormer B2
+  weights with **three input channels** and two classes; the Hub package is
+  initially private.
+- [Prediction evaluation](docs/EVALUATION.md): 215 full-chip masks across all 14
+  UFO events, with a CSV verified against every local image/label pair.
+- Verified mean per-image water IoU: **77.34%**. Pooled-pixel water IoU: **85.08%**.
+
+All 215 masks match their reference grids. Recomputed confusion counts match
+exactly, and per-image metrics agree within rounding. The original checkpoint's
+band order and normalization are not yet confirmed, and the artifact audit does
+not establish which checkpoint generated each prediction.
+
+## Training pipeline model
+
+The model trained by the current code is SegFormer-B2 initialized from Hugging Face pretrained weights and
 adapted from three input channels to four PlanetScope bands:
 
 1. Blue
